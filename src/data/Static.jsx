@@ -81,6 +81,7 @@ export const langues = [
     title: "Full Stack E-Commerce",
     description: "This is Based On MERN Stack and more information check Github",
     imageUrl: "https://res.cloudinary.com/dwsdik5f9/image/upload/v1735828324/ecommarce_xdybgd.png", 
+    deployLink: "https://ecommerce-website-hbf5.vercel.app/",
     githubLink: "https://github.com/Sonu7042/Ecommerce_Website.git",
   },
 ];
