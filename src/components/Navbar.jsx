@@ -106,6 +106,11 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
+            <Link onClick={handleClick} to="projects" smooth duration={500}>
+              Projects
+            </Link>
+          </li>
+          <li>
             <Link onClick={handleClick} to="contact" smooth duration={500}>
               Contact
             </Link>

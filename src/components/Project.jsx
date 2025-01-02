@@ -14,9 +14,9 @@ const Project = () => {
           </p>
         </div>
 
-        <div className="flex flex-wrap gap-8 justify-center p-8 ">
+        <div className="flex flex-wrap gap-8 justify-center pt-8 w-full ">
           {projectData.map((project, index) => (
-            <div className="border-2 border-gray-300 rounded-lg shadow-md overflow-hidden max-w-sm">
+            <div key={index} className="border-2 border-gray-300 rounded-lg shadow-md overflow-hidden w-full md:max-w-sm lg:max-w-sm">
               <div className="p-4 text-center">
                 <h3 className="text-xl font-bold text-white">
                   {project.title}
