@@ -65,3 +65,22 @@ export const langues = [
     style: "shadow-green-500",
   },
 ];
+
+
+
+
+ export const projectData = [
+  {
+    title: "Todo List",
+    description: "This is Based On MERN Stack and more information check Github",
+    imageUrl: "https://res.cloudinary.com/dwsdik5f9/image/upload/v1735831642/Todo_a8mx6x.png", 
+    deployLink: "https://todo-wl3l.vercel.app/",
+    githubLink: "https://github.com/Sonu7042/Todo.git",
+  },
+  {
+    title: "Full Stack E-Commerce",
+    description: "This is Based On MERN Stack and more information check Github",
+    imageUrl: "https://res.cloudinary.com/dwsdik5f9/image/upload/v1735828324/ecommarce_xdybgd.png", 
+    githubLink: "https://github.com/Sonu7042/Ecommerce_Website.git",
+  },
+];

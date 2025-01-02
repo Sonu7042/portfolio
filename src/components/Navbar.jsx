@@ -67,6 +67,11 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="hover:text-[#00FFCA]">
+          <Link to="projects" smooth duration={500}>
+            Projects
+          </Link>
+        </li>
+        <li className="hover:text-[#00FFCA]">
           <Link to="contact" smooth duration={500}>
             Contact
           </Link>
