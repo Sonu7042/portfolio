@@ -11,6 +11,7 @@ const Home = () => {
         <h1 className="text-4xl sm:text-7xl font-bold text-[#00FFCA]">
           Sonu Singh
         </h1>
+        
         <div className='hidden lg:flex'>
           <h2 className="text-2xl sm:text-4xl font-bold text-zinc-50 pt-2 flex">
             <span className='mr-2'>I am</span>
