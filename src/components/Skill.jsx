@@ -10,11 +10,11 @@ const Skill = () => {
   return (
     <div
       name="skill"
-      className="w-full bg-gradient-to-l from-[#21073C] to-[#3A1078] text-gray-300 pt-32 lg:py-32"
+      className="w-full bg-gradient-to-l from-[#21073C] to-[#3A1078] text-gray-300 pt-10 lg:py-32"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center  h-full text-white">
-        <div>
-          <p className="text-4xl font-bold inline border-b-4 border-[#00FFCA]">
+        <div className='w-full'>
+          <p className="text-4xl font-bold inline  border-b-4 border-[#00FFCA]">
             Skills
           </p>
           <p className="py-6">

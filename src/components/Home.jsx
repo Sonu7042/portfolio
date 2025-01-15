@@ -12,7 +12,7 @@ const Home = () => {
           Sonu Singh
         </h1>
         
-        <div className='hidden lg:flex'>
+        <div className=' hidden  lg:flex home'>
           <h2 className="text-2xl sm:text-4xl font-bold text-zinc-50 pt-2 flex">
             <span className='mr-2'>I am</span>
             

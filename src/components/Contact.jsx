@@ -53,7 +53,7 @@ const Contact = () => {
     >
       <div className="flex flex-col justify-center items-center w-full h-full text-white px-4">
         {/* Heading */}
-        <p className="text-4xl font-bold inline border-b-4 border-[#00FFCA]">
+        <p className="text-4xl font-bold inline text-right border-b-4 border-[#00FFCA]">
           Contact
         </p>
         {/* Description */}
