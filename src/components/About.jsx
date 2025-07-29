@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import pic from "../assets/myPic.jpeg";
+import pic from "../assets/animic_pic.jpg";
 import { BsDownload } from "react-icons/bs";
 import { saveAs } from "file-saver";
-import file from "../assets/my_resume.pdf";
+import file from "../assets/SonuSingh_Resume.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -14,7 +14,7 @@ const About = () => {
    * Handles the download button click event and downloads the resume file.
    */
   const handleDownload = () => {
-    saveAs(file, "resume.pdf");
+    saveAs(file, "SonuSingh.pdf");
   };
 
   return (
